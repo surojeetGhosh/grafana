@@ -1,15 +1,19 @@
 name: Cherry-pick to Release Branch
 
 on:
-  pull_request:
-    branches:
-      - master
-    types:
-      - closed
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: "The PR number to cherry-pick"
+        required: true
+        type: string
+      release_branch:
+        description: "The release branch to cherry-pick into"
+        required: true
+        type: string
 
 jobs:
   cherry-pick:
-    if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
 
     steps:
@@ -25,34 +29,50 @@ jobs:
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor }}@users.noreply.github.com"
 
-      # Create a new branch from the release branch
-      - name: Create Release Branch
+      # Check if the PR is merged and get the merge commit
+      - name: Check PR Merge Status
+        id: pr_check
         run: |
-          RELEASE_BRANCH=branch-surojeet
+          PR_DATA=$(gh pr view ${{ inputs.pr_number }} --json mergeable,merged,mergeCommit --jq '{merged: .merged, commit: .mergeCommit.oid}')
+          echo "$PR_DATA" > pr_status.json
+
+          MERGED=$(jq -r '.merged' pr_status.json)
+          MERGE_COMMIT=$(jq -r '.commit' pr_status.json)
+
+          if [ "$MERGED" != "true" ]; then
+            echo "The PR #${{ inputs.pr_number }} is not merged. Exiting."
+            exit 1
+          fi
+
+          echo "merge_commit=$MERGE_COMMIT" >> $GITHUB_ENV
+
+      # Create a new branch from the release branch
+      - name: Create Branch
+        run: |
+          RELEASE_BRANCH=${{ inputs.release_branch }}
           git fetch origin $RELEASE_BRANCH
           git checkout -b cherry-pick-$RELEASE_BRANCH origin/$RELEASE_BRANCH
 
-      # Cherry-pick the merged commit from master
+      # Cherry-pick the specified commit
       - name: Cherry-pick Commit
         run: |
-          git cherry-pick ${{ github.event.pull_request.merge_commit_sha }} || true
+          git cherry-pick ${{ env.merge_commit }} || true
 
-      # Push the changes to the release branch
-      - name: Push to Release Branch
+      # Push the new branch
+      - name: Push Branch
         run: |
-          RELEASE_BRANCH=branch-surojeet
+          RELEASE_BRANCH=${{ inputs.release_branch }}
           git push origin cherry-pick-$RELEASE_BRANCH
 
-      # Create a Pull Request to the release branch
+      # Create a PR to the release branch
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "Cherry-picked changes from master PR #${{ github.event.pull_request.number }}"
-          branch: cherry-pick-${{ github.event.pull_request.base.ref }}
-          base: branch-surojeet
-          title: "Cherry-pick master PR #${{ github.event.pull_request.number }} to branch-surojeet"
+          commit-message: "Cherry-picked changes from PR #${{ inputs.pr_number }}"
+          branch: cherry-pick-${{ inputs.release_branch }}
+          base: ${{ inputs.release_branch }}
+          title: "Cherry-pick PR #${{ inputs.pr_number }} to ${{ inputs.release_branch }}"
           body: |
-            Cherry-picked commit from master:
-            - Original PR: #${{ github.event.pull_request.number }}
-            - Original Commit: ${{ github.event.pull_request.merge_commit_sha }}
+            Cherry-picked commit from PR #${{ inputs.pr_number }}:
+            - Commit: ${{ env.merge_commit }}
