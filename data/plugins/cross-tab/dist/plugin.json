@@ -1,0 +1,24 @@
+{
+  "type": "panel",
+  "name": "BMC Cross-tab",
+  "id": "bmc-ade-cross-tab",
+
+  "info": {
+    "description": "BMC Cross-tab panel plugin",
+    "author": {
+      "name": "BMC Software"
+    },
+    "keywords": ["BMC"],
+    "logos": {
+      "small": "img/logo.svg",
+      "large": "img/logo.svg"
+    },
+    "screenshots": [],
+    "version": "1.0.0",
+    "updated": "2025-01-13"
+  },
+  "dependencies": {
+    "grafanaVersion": "7.3.1",
+    "plugins": []
+  }
+}

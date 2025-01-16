@@ -1,0 +1,676 @@
+logger=user.sync t=2025-01-07T00:04:03.016896+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T00:08:51.3764765+05:30 level=info msg="Completed cleanup jobs" duration=3.9842ms
+logger=plugins.update.checker t=2025-01-07T00:08:52.9409692+05:30 level=info msg="Update check succeeded" duration=401.8756ms
+logger=rendering renderer=http t=2025-01-07T00:09:03.8494798+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T00:09:03.8494798+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=infra.usagestats t=2025-01-07T00:09:29.0679097+05:30 level=info msg="Usage stats are ready to report"
+logger=user.sync t=2025-01-07T00:13:43.028162+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T00:18:51.3773355+05:30 level=info msg="Completed cleanup jobs" duration=2.9827ms
+logger=plugins.update.checker t=2025-01-07T00:18:52.7943205+05:30 level=info msg="Update check succeeded" duration=307.1969ms
+logger=user.sync t=2025-01-07T00:23:20.0160937+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=rendering renderer=http t=2025-01-07T00:24:02.8568611+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T00:24:02.8568611+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=cleanup t=2025-01-07T00:28:51.3809411+05:30 level=info msg="Completed cleanup jobs" duration=3.0022ms
+logger=user.sync t=2025-01-07T00:33:08.0277416+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T00:38:51.396259+05:30 level=info msg="Completed cleanup jobs" duration=17.9985ms
+logger=plugins.update.checker t=2025-01-07T00:38:55.9519892+05:30 level=info msg="Update check succeeded" duration=3.4573895s
+logger=rendering renderer=http t=2025-01-07T00:39:09.784924+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T00:39:09.784924+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=infra.usagestats t=2025-01-07T00:39:29.2103329+05:30 level=info msg="Usage stats are ready to report"
+logger=user.sync t=2025-01-07T00:42:46.0317322+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T00:48:51.3902192+05:30 level=info msg="Completed cleanup jobs" duration=9.9761ms
+logger=plugins.update.checker t=2025-01-07T00:48:53.14386+05:30 level=info msg="Update check succeeded" duration=650.176ms
+logger=user.sync t=2025-01-07T00:52:23.0408037+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=rendering renderer=http t=2025-01-07T00:54:05.9376105+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T00:54:05.9376105+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=cleanup t=2025-01-07T00:58:51.3890609+05:30 level=info msg="Completed cleanup jobs" duration=2.9999ms
+logger=plugins.update.checker t=2025-01-07T00:58:52.9000796+05:30 level=info msg="Update check succeeded" duration=402.0508ms
+logger=user.sync t=2025-01-07T01:02:10.0371981+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T01:08:51.3914288+05:30 level=info msg="Completed cleanup jobs" duration=3.9817ms
+logger=plugins.update.checker t=2025-01-07T01:08:52.9149044+05:30 level=info msg="Update check succeeded" duration=406.0037ms
+logger=rendering renderer=http t=2025-01-07T01:09:02.8152343+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T01:09:02.8152343+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=infra.usagestats t=2025-01-07T01:09:29.1947792+05:30 level=info msg="Usage stats are ready to report"
+logger=user.sync t=2025-01-07T01:12:02.0330039+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T01:18:51.3908998+05:30 level=info msg="Completed cleanup jobs" duration=3.7817ms
+logger=plugins.update.checker t=2025-01-07T01:18:52.8616976+05:30 level=info msg="Update check succeeded" duration=362.1712ms
+logger=user.sync t=2025-01-07T01:21:41.0356316+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=rendering renderer=http t=2025-01-07T01:24:02.8412537+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T01:24:02.8412537+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=cleanup t=2025-01-07T01:28:51.3917941+05:30 level=info msg="Completed cleanup jobs" duration=2.9816ms
+logger=plugins.update.checker t=2025-01-07T01:28:52.8734113+05:30 level=info msg="Update check succeeded" duration=371.931ms
+logger=user.sync t=2025-01-07T01:31:34.0456991+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T01:38:51.3946826+05:30 level=info msg="Completed cleanup jobs" duration=3.5604ms
+logger=plugins.update.checker t=2025-01-07T01:38:52.8973933+05:30 level=info msg="Update check succeeded" duration=363.9701ms
+logger=rendering renderer=http t=2025-01-07T01:39:02.8247386+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T01:39:02.8247386+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=infra.usagestats t=2025-01-07T01:39:29.1035899+05:30 level=info msg="Usage stats are ready to report"
+logger=user.sync t=2025-01-07T01:41:16.0386513+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T01:48:51.3974794+05:30 level=info msg="Completed cleanup jobs" duration=3.4939ms
+logger=plugins.update.checker t=2025-01-07T01:48:52.8870636+05:30 level=info msg="Update check succeeded" duration=380.7797ms
+logger=user.sync t=2025-01-07T01:51:10.0343497+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=rendering renderer=http t=2025-01-07T01:54:02.8243069+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T01:54:02.8245711+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=cleanup t=2025-01-07T01:58:51.3993838+05:30 level=info msg="Completed cleanup jobs" duration=2.9829ms
+logger=plugins.update.checker t=2025-01-07T01:58:52.8671358+05:30 level=info msg="Update check succeeded" duration=358.0557ms
+logger=user.sync t=2025-01-07T02:01:02.0589062+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T02:08:51.4034153+05:30 level=info msg="Completed cleanup jobs" duration=4.0044ms
+logger=plugins.update.checker t=2025-01-07T02:08:52.9235419+05:30 level=info msg="Update check succeeded" duration=362.6122ms
+logger=rendering renderer=http t=2025-01-07T02:09:02.8334997+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T02:09:02.8334997+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=infra.usagestats t=2025-01-07T02:09:29.0464884+05:30 level=info msg="Usage stats are ready to report"
+logger=user.sync t=2025-01-07T02:10:44.0476544+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T02:18:51.4043234+05:30 level=info msg="Completed cleanup jobs" duration=3.5983ms
+logger=plugins.update.checker t=2025-01-07T02:18:52.9672029+05:30 level=info msg="Update check succeeded" duration=453.4627ms
+logger=user.sync t=2025-01-07T02:20:28.0505727+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=rendering renderer=http t=2025-01-07T02:24:02.8427646+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T02:24:02.8427646+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=cleanup t=2025-01-07T02:28:51.406294+05:30 level=info msg="Completed cleanup jobs" duration=3.2051ms
+logger=plugins.update.checker t=2025-01-07T02:28:52.878578+05:30 level=info msg="Update check succeeded" duration=362.8341ms
+logger=user.sync t=2025-01-07T02:30:20.0449015+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T02:38:51.4113601+05:30 level=info msg="Completed cleanup jobs" duration=4.6303ms
+logger=plugins.update.checker t=2025-01-07T02:38:52.9284262+05:30 level=info msg="Update check succeeded" duration=366.4674ms
+logger=rendering renderer=http t=2025-01-07T02:39:02.8221034+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T02:39:02.8221034+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=infra.usagestats t=2025-01-07T02:39:29.1658146+05:30 level=info msg="Usage stats are ready to report"
+logger=user.sync t=2025-01-07T02:40:03.047402+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T02:48:51.4136183+05:30 level=info msg="Completed cleanup jobs" duration=4.5374ms
+logger=plugins.update.checker t=2025-01-07T02:48:52.8778151+05:30 level=info msg="Update check succeeded" duration=357.0617ms
+logger=user.sync t=2025-01-07T02:49:55.0496019+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=rendering renderer=http t=2025-01-07T02:54:02.8575195+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T02:54:02.8575195+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=cleanup t=2025-01-07T02:58:51.413552+05:30 level=info msg="Completed cleanup jobs" duration=3.5985ms
+logger=plugins.update.checker t=2025-01-07T02:58:52.8844689+05:30 level=info msg="Update check succeeded" duration=361.2612ms
+logger=user.sync t=2025-01-07T02:59:46.0597596+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T03:08:51.4183513+05:30 level=info msg="Completed cleanup jobs" duration=4.6336ms
+logger=plugins.update.checker t=2025-01-07T03:08:52.8954471+05:30 level=info msg="Update check succeeded" duration=363.8883ms
+logger=rendering renderer=http t=2025-01-07T03:09:02.8383815+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T03:09:02.8383815+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=infra.usagestats t=2025-01-07T03:09:29.1560654+05:30 level=info msg="Usage stats are ready to report"
+logger=user.sync t=2025-01-07T03:09:35.0611309+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T03:18:51.4190882+05:30 level=info msg="Completed cleanup jobs" duration=4.0966ms
+logger=plugins.update.checker t=2025-01-07T03:18:52.9013087+05:30 level=info msg="Update check succeeded" duration=373.9488ms
+logger=user.sync t=2025-01-07T03:19:13.0742791+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=rendering renderer=http t=2025-01-07T03:24:02.860583+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T03:24:02.860583+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=cleanup t=2025-01-07T03:28:51.4207715+05:30 level=info msg="Completed cleanup jobs" duration=3.9831ms
+logger=plugins.update.checker t=2025-01-07T03:28:52.9020041+05:30 level=info msg="Update check succeeded" duration=371.9952ms
+logger=user.sync t=2025-01-07T03:29:04.0675925+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=user.sync t=2025-01-07T03:38:41.0675017+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T03:38:51.4229441+05:30 level=info msg="Completed cleanup jobs" duration=3.6515ms
+logger=plugins.update.checker t=2025-01-07T03:38:52.9059063+05:30 level=info msg="Update check succeeded" duration=360.6218ms
+logger=rendering renderer=http t=2025-01-07T03:39:02.8653255+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T03:39:02.8653255+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=infra.usagestats t=2025-01-07T03:39:29.2073968+05:30 level=info msg="Usage stats are ready to report"
+logger=user.sync t=2025-01-07T03:48:19.0634077+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T03:48:51.4253599+05:30 level=info msg="Completed cleanup jobs" duration=3.9759ms
+logger=plugins.update.checker t=2025-01-07T03:48:52.9028938+05:30 level=info msg="Update check succeeded" duration=368.0731ms
+logger=rendering renderer=http t=2025-01-07T03:54:02.8695849+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T03:54:02.8695849+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=user.sync t=2025-01-07T03:57:58.072245+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T03:58:51.4266316+05:30 level=info msg="Completed cleanup jobs" duration=3.1789ms
+logger=plugins.update.checker t=2025-01-07T03:58:52.9056017+05:30 level=info msg="Update check succeeded" duration=370.143ms
+logger=user.sync t=2025-01-07T04:07:45.0726313+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T04:08:51.4281734+05:30 level=info msg="Completed cleanup jobs" duration=2.9841ms
+logger=plugins.update.checker t=2025-01-07T04:08:52.9411243+05:30 level=info msg="Update check succeeded" duration=354.7661ms
+logger=rendering renderer=http t=2025-01-07T04:09:02.8497821+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T04:09:02.8497821+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=infra.usagestats t=2025-01-07T04:09:29.1623768+05:30 level=info msg="Usage stats are ready to report"
+logger=user.sync t=2025-01-07T04:17:36.0761433+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T04:18:51.4326088+05:30 level=info msg="Completed cleanup jobs" duration=3.0041ms
+logger=plugins.update.checker t=2025-01-07T04:18:52.9211045+05:30 level=info msg="Update check succeeded" duration=380.5217ms
+logger=rendering renderer=http t=2025-01-07T04:24:02.8400197+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T04:24:02.8400197+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=user.sync t=2025-01-07T04:27:30.0713364+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T04:28:51.4340172+05:30 level=info msg="Completed cleanup jobs" duration=3.6409ms
+logger=plugins.update.checker t=2025-01-07T04:28:52.911663+05:30 level=info msg="Update check succeeded" duration=368.9302ms
+logger=user.sync t=2025-01-07T04:37:22.0800014+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T04:38:51.4447653+05:30 level=info msg="Completed cleanup jobs" duration=12.5402ms
+logger=plugins.update.checker t=2025-01-07T04:38:52.9684102+05:30 level=info msg="Update check succeeded" duration=352.3319ms
+logger=rendering renderer=http t=2025-01-07T04:39:02.8932187+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T04:39:02.8932187+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=infra.usagestats t=2025-01-07T04:39:29.2019704+05:30 level=info msg="Usage stats are ready to report"
+logger=user.sync t=2025-01-07T04:47:04.0972515+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T04:48:51.4447247+05:30 level=info msg="Completed cleanup jobs" duration=10.5159ms
+logger=plugins.update.checker t=2025-01-07T04:48:52.9135246+05:30 level=info msg="Update check succeeded" duration=365.9242ms
+logger=rendering renderer=http t=2025-01-07T04:54:02.8517308+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T04:54:02.8517308+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=user.sync t=2025-01-07T04:56:52.0881582+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T04:58:51.440886+05:30 level=info msg="Completed cleanup jobs" duration=2.9839ms
+logger=plugins.update.checker t=2025-01-07T04:58:52.9132986+05:30 level=info msg="Update check succeeded" duration=364.4737ms
+logger=user.sync t=2025-01-07T05:06:45.0889167+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T05:08:51.4423365+05:30 level=info msg="Completed cleanup jobs" duration=3.9805ms
+logger=plugins.update.checker t=2025-01-07T05:08:52.9416237+05:30 level=info msg="Update check succeeded" duration=379.8517ms
+logger=rendering renderer=http t=2025-01-07T05:09:02.8844248+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T05:09:02.8844248+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=infra.usagestats t=2025-01-07T05:09:29.1937769+05:30 level=info msg="Usage stats are ready to report"
+logger=user.sync t=2025-01-07T05:16:26.0818631+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T05:18:51.4433228+05:30 level=info msg="Completed cleanup jobs" duration=2.9809ms
+logger=plugins.update.checker t=2025-01-07T05:18:52.9364517+05:30 level=info msg="Update check succeeded" duration=381.8976ms
+logger=rendering renderer=http t=2025-01-07T05:24:02.8603001+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T05:24:02.8603001+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=user.sync t=2025-01-07T05:26:09.0920281+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T05:28:51.4465632+05:30 level=info msg="Completed cleanup jobs" duration=3.5315ms
+logger=plugins.update.checker t=2025-01-07T05:28:52.9370706+05:30 level=info msg="Update check succeeded" duration=381.3771ms
+logger=user.sync t=2025-01-07T05:35:51.0928664+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T05:38:51.4487338+05:30 level=info msg="Completed cleanup jobs" duration=3.9779ms
+logger=plugins.update.checker t=2025-01-07T05:38:52.9533579+05:30 level=info msg="Update check succeeded" duration=350.6014ms
+logger=rendering renderer=http t=2025-01-07T05:39:02.8546897+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T05:39:02.8546897+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=infra.usagestats t=2025-01-07T05:39:29.2267677+05:30 level=info msg="Usage stats are ready to report"
+logger=user.sync t=2025-01-07T05:45:35.0935796+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T05:48:51.4497909+05:30 level=info msg="Completed cleanup jobs" duration=2.9809ms
+logger=plugins.update.checker t=2025-01-07T05:48:52.9302511+05:30 level=info msg="Update check succeeded" duration=370.5131ms
+logger=rendering renderer=http t=2025-01-07T05:54:02.8724534+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T05:54:02.8724534+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=user.sync t=2025-01-07T05:55:20.0888032+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T05:58:51.4518666+05:30 level=info msg="Completed cleanup jobs" duration=2.977ms
+logger=plugins.update.checker t=2025-01-07T05:58:52.9322833+05:30 level=info msg="Update check succeeded" duration=370.6056ms
+logger=user.sync t=2025-01-07T06:04:57.1110325+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T06:08:51.4546236+05:30 level=info msg="Completed cleanup jobs" duration=3.9715ms
+logger=plugins.update.checker t=2025-01-07T06:08:53.0102484+05:30 level=info msg="Update check succeeded" duration=367.964ms
+logger=rendering renderer=http t=2025-01-07T06:09:02.8775586+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T06:09:02.8775586+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=infra.usagestats t=2025-01-07T06:09:29.2139565+05:30 level=info msg="Usage stats are ready to report"
+logger=user.sync t=2025-01-07T06:14:34.0993371+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T06:18:51.4562428+05:30 level=info msg="Completed cleanup jobs" duration=2.9831ms
+logger=plugins.update.checker t=2025-01-07T06:18:52.94019+05:30 level=info msg="Update check succeeded" duration=374.7402ms
+logger=rendering renderer=http t=2025-01-07T06:24:02.9085938+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T06:24:02.9085938+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=user.sync t=2025-01-07T06:24:22.3132425+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T06:28:51.4581371+05:30 level=info msg="Completed cleanup jobs" duration=2.9812ms
+logger=plugins.update.checker t=2025-01-07T06:28:52.9747563+05:30 level=info msg="Update check succeeded" duration=406.7161ms
+logger=user.sync t=2025-01-07T06:34:12.1041419+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T06:38:51.4610095+05:30 level=info msg="Completed cleanup jobs" duration=2.9848ms
+logger=plugins.update.checker t=2025-01-07T06:38:52.9887055+05:30 level=info msg="Update check succeeded" duration=386.1029ms
+logger=rendering renderer=http t=2025-01-07T06:39:02.9034454+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T06:39:02.9034454+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=infra.usagestats t=2025-01-07T06:39:29.196631+05:30 level=info msg="Usage stats are ready to report"
+logger=user.sync t=2025-01-07T06:43:56.101632+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T06:48:51.4635308+05:30 level=info msg="Completed cleanup jobs" duration=3.456ms
+logger=plugins.update.checker t=2025-01-07T06:48:52.9540886+05:30 level=info msg="Update check succeeded" duration=381.4394ms
+logger=user.sync t=2025-01-07T06:53:47.1040657+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=rendering renderer=http t=2025-01-07T06:54:02.9208374+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T06:54:02.9208374+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=cleanup t=2025-01-07T06:58:51.4657802+05:30 level=info msg="Completed cleanup jobs" duration=2.9837ms
+logger=plugins.update.checker t=2025-01-07T06:58:52.9361894+05:30 level=info msg="Update check succeeded" duration=360.3805ms
+logger=user.sync t=2025-01-07T07:03:24.1124667+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T07:08:51.4677743+05:30 level=info msg="Completed cleanup jobs" duration=2.9799ms
+logger=plugins.update.checker t=2025-01-07T07:08:52.980295+05:30 level=info msg="Update check succeeded" duration=355.6951ms
+logger=rendering renderer=http t=2025-01-07T07:09:02.9324845+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T07:09:02.9324845+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=infra.usagestats t=2025-01-07T07:09:29.1854566+05:30 level=info msg="Usage stats are ready to report"
+logger=user.sync t=2025-01-07T07:13:07.113768+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T07:18:51.4713578+05:30 level=info msg="Completed cleanup jobs" duration=2.9825ms
+logger=plugins.update.checker t=2025-01-07T07:18:52.9359135+05:30 level=info msg="Update check succeeded" duration=355.0999ms
+logger=user.sync t=2025-01-07T07:22:44.1175886+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=rendering renderer=http t=2025-01-07T07:24:02.9351126+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T07:24:02.9351126+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=cleanup t=2025-01-07T07:28:51.4747502+05:30 level=info msg="Completed cleanup jobs" duration=2.9803ms
+logger=plugins.update.checker t=2025-01-07T07:28:52.9663963+05:30 level=info msg="Update check succeeded" duration=382.5307ms
+logger=user.sync t=2025-01-07T07:32:24.1178532+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T07:38:51.4784051+05:30 level=info msg="Completed cleanup jobs" duration=4.5468ms
+logger=plugins.update.checker t=2025-01-07T07:38:53.040089+05:30 level=info msg="Update check succeeded" duration=417.3119ms
+logger=rendering renderer=http t=2025-01-07T07:39:02.8998026+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T07:39:02.8998026+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=infra.usagestats t=2025-01-07T07:39:29.1978141+05:30 level=info msg="Usage stats are ready to report"
+logger=user.sync t=2025-01-07T07:42:01.1155019+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T07:48:51.4812875+05:30 level=info msg="Completed cleanup jobs" duration=3.9823ms
+logger=plugins.update.checker t=2025-01-07T07:48:52.9626834+05:30 level=info msg="Update check succeeded" duration=372.8388ms
+logger=user.sync t=2025-01-07T07:51:39.1167419+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=rendering renderer=http t=2025-01-07T07:54:02.9579685+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T07:54:02.9579685+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=cleanup t=2025-01-07T07:58:51.4828096+05:30 level=info msg="Completed cleanup jobs" duration=3.0011ms
+logger=plugins.update.checker t=2025-01-07T07:58:52.9597524+05:30 level=info msg="Update check succeeded" duration=368.2716ms
+logger=user.sync t=2025-01-07T08:01:18.1303179+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T08:08:51.4843838+05:30 level=info msg="Completed cleanup jobs" duration=4.5601ms
+logger=plugins.update.checker t=2025-01-07T08:08:53.0049492+05:30 level=info msg="Update check succeeded" duration=364.9757ms
+logger=rendering renderer=http t=2025-01-07T08:09:02.9679355+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T08:09:02.9679355+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=infra.usagestats t=2025-01-07T08:09:29.1892643+05:30 level=info msg="Usage stats are ready to report"
+logger=user.sync t=2025-01-07T08:10:57.1497389+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T08:18:51.4862949+05:30 level=info msg="Completed cleanup jobs" duration=3.7126ms
+logger=plugins.update.checker t=2025-01-07T08:18:52.9690303+05:30 level=info msg="Update check succeeded" duration=372.8423ms
+logger=user.sync t=2025-01-07T08:20:36.1301563+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=rendering renderer=http t=2025-01-07T08:24:02.8986286+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T08:24:02.8986286+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=cleanup t=2025-01-07T08:28:51.4883244+05:30 level=info msg="Completed cleanup jobs" duration=3.564ms
+logger=plugins.update.checker t=2025-01-07T08:28:52.9760975+05:30 level=info msg="Update check succeeded" duration=378.7713ms
+logger=user.sync t=2025-01-07T08:30:27.1324618+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T08:38:51.5010886+05:30 level=info msg="Completed cleanup jobs" duration=13.2476ms
+logger=plugins.update.checker t=2025-01-07T08:38:53.0200314+05:30 level=info msg="Update check succeeded" duration=355.7493ms
+logger=rendering renderer=http t=2025-01-07T08:39:02.8953346+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T08:39:02.8953346+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=infra.usagestats t=2025-01-07T08:39:29.2761362+05:30 level=info msg="Usage stats are ready to report"
+logger=user.sync t=2025-01-07T08:40:20.1428832+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T08:48:51.4941803+05:30 level=info msg="Completed cleanup jobs" duration=3.9976ms
+logger=plugins.update.checker t=2025-01-07T08:48:52.969532+05:30 level=info msg="Update check succeeded" duration=366.1193ms
+logger=user.sync t=2025-01-07T08:50:07.1506339+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=rendering renderer=http t=2025-01-07T08:54:02.8961624+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T08:54:02.8961624+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=cleanup t=2025-01-07T08:58:51.4955317+05:30 level=info msg="Completed cleanup jobs" duration=2.9764ms
+logger=plugins.update.checker t=2025-01-07T08:58:52.9798212+05:30 level=info msg="Update check succeeded" duration=375.1255ms
+logger=user.sync t=2025-01-07T08:59:53.1434802+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T09:08:51.5053145+05:30 level=info msg="Completed cleanup jobs" duration=11.0574ms
+logger=plugins.update.checker t=2025-01-07T09:08:52.9814086+05:30 level=info msg="Update check succeeded" duration=374.5395ms
+logger=rendering renderer=http t=2025-01-07T09:09:02.9408942+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T09:09:02.9408942+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=infra.usagestats t=2025-01-07T09:09:29.3307111+05:30 level=info msg="Usage stats are ready to report"
+logger=user.sync t=2025-01-07T09:09:38.1446755+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T09:18:51.5003369+05:30 level=info msg="Completed cleanup jobs" duration=3.7465ms
+logger=plugins.update.checker t=2025-01-07T09:18:52.9774194+05:30 level=info msg="Update check succeeded" duration=368.1665ms
+logger=user.sync t=2025-01-07T09:19:17.1461173+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=rendering renderer=http t=2025-01-07T09:24:02.9349453+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T09:24:02.9349453+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=cleanup t=2025-01-07T09:28:51.5018045+05:30 level=info msg="Completed cleanup jobs" duration=3.6281ms
+logger=plugins.update.checker t=2025-01-07T09:28:52.9784733+05:30 level=info msg="Update check succeeded" duration=367.6679ms
+logger=user.sync t=2025-01-07T09:29:03.1613683+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T09:38:51.5054892+05:30 level=info msg="Completed cleanup jobs" duration=5.2277ms
+logger=plugins.update.checker t=2025-01-07T09:38:53.0337144+05:30 level=info msg="Update check succeeded" duration=368.2796ms
+logger=user.sync t=2025-01-07T09:38:54.1440893+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=rendering renderer=http t=2025-01-07T09:39:02.9433915+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T09:39:02.9438238+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=infra.usagestats t=2025-01-07T09:39:29.2934675+05:30 level=info msg="Usage stats are ready to report"
+logger=user.sync t=2025-01-07T09:48:47.1495499+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T09:48:51.5065506+05:30 level=info msg="Completed cleanup jobs" duration=3.6971ms
+logger=plugins.update.checker t=2025-01-07T09:48:52.9902916+05:30 level=info msg="Update check succeeded" duration=374.9904ms
+logger=rendering renderer=http t=2025-01-07T09:54:02.9190581+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T09:54:02.9190581+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=user.sync t=2025-01-07T09:58:32.2763098+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T09:58:51.5085959+05:30 level=info msg="Completed cleanup jobs" duration=3.7642ms
+logger=plugins.update.checker t=2025-01-07T09:58:52.984365+05:30 level=info msg="Update check succeeded" duration=366.5396ms
+logger=user.sync t=2025-01-07T10:08:26.1557519+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T10:08:51.5113659+05:30 level=info msg="Completed cleanup jobs" duration=3.9757ms
+logger=plugins.update.checker t=2025-01-07T10:08:53.0136463+05:30 level=info msg="Update check succeeded" duration=353.5195ms
+logger=rendering renderer=http t=2025-01-07T10:09:02.9559961+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T10:09:02.9559961+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=infra.usagestats t=2025-01-07T10:09:29.2288546+05:30 level=info msg="Usage stats are ready to report"
+logger=user.sync t=2025-01-07T10:18:04.1647148+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T10:18:51.5146923+05:30 level=info msg="Completed cleanup jobs" duration=3.0006ms
+logger=plugins.update.checker t=2025-01-07T10:18:52.9886486+05:30 level=info msg="Update check succeeded" duration=363.7977ms
+logger=rendering renderer=http t=2025-01-07T10:24:02.9416558+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T10:24:02.9416558+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=user.sync t=2025-01-07T10:27:50.1614514+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T10:28:51.5164021+05:30 level=info msg="Completed cleanup jobs" duration=2.9999ms
+logger=plugins.update.checker t=2025-01-07T10:28:52.99434+05:30 level=info msg="Update check succeeded" duration=368.2825ms
+logger=user.sync t=2025-01-07T10:37:28.1655109+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T10:38:51.519856+05:30 level=info msg="Completed cleanup jobs" duration=3.9796ms
+logger=plugins.update.checker t=2025-01-07T10:38:53.0323381+05:30 level=info msg="Update check succeeded" duration=354.9738ms
+logger=rendering renderer=http t=2025-01-07T10:39:02.9389758+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T10:39:02.9390452+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=infra.usagestats t=2025-01-07T10:39:29.2741058+05:30 level=info msg="Usage stats are ready to report"
+logger=user.sync t=2025-01-07T10:47:13.163293+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T10:48:51.5207416+05:30 level=info msg="Completed cleanup jobs" duration=2.9839ms
+logger=plugins.update.checker t=2025-01-07T10:48:52.9948181+05:30 level=info msg="Update check succeeded" duration=363.918ms
+logger=rendering renderer=http t=2025-01-07T10:54:02.9543985+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T10:54:02.9543985+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=user.sync t=2025-01-07T10:56:55.1721302+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T10:58:51.5239103+05:30 level=info msg="Completed cleanup jobs" duration=2.9785ms
+logger=plugins.update.checker t=2025-01-07T10:58:53.0025277+05:30 level=info msg="Update check succeeded" duration=369.6006ms
+logger=user.sync t=2025-01-07T11:06:48.1708124+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T11:08:51.5273494+05:30 level=info msg="Completed cleanup jobs" duration=4.0015ms
+logger=plugins.update.checker t=2025-01-07T11:08:53.0315324+05:30 level=info msg="Update check succeeded" duration=358.4654ms
+logger=rendering renderer=http t=2025-01-07T11:09:02.9952118+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T11:09:02.9952118+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=infra.usagestats t=2025-01-07T11:09:29.2433561+05:30 level=info msg="Usage stats are ready to report"
+logger=user.sync t=2025-01-07T11:16:25.1778108+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T11:18:51.5301959+05:30 level=info msg="Completed cleanup jobs" duration=3.4606ms
+logger=plugins.update.checker t=2025-01-07T11:18:53.0030752+05:30 level=info msg="Update check succeeded" duration=363.8875ms
+logger=rendering renderer=http t=2025-01-07T11:24:02.9661249+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T11:24:02.9661249+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=user.sync t=2025-01-07T11:26:15.1748585+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T11:28:51.5314251+05:30 level=info msg="Completed cleanup jobs" duration=2.977ms
+logger=plugins.update.checker t=2025-01-07T11:28:53.0018815+05:30 level=info msg="Update check succeeded" duration=361.2065ms
+logger=user.sync t=2025-01-07T11:36:07.1699157+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T11:38:51.5351455+05:30 level=info msg="Completed cleanup jobs" duration=4.9174ms
+logger=plugins.update.checker t=2025-01-07T11:38:53.0381638+05:30 level=info msg="Update check succeeded" duration=355.3222ms
+logger=rendering renderer=http t=2025-01-07T11:39:02.9545824+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T11:39:02.9545824+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=infra.usagestats t=2025-01-07T11:39:29.1879166+05:30 level=info msg="Usage stats are ready to report"
+logger=user.sync t=2025-01-07T11:45:43.1802236+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T11:48:51.535138+05:30 level=info msg="Completed cleanup jobs" duration=3.9624ms
+logger=plugins.update.checker t=2025-01-07T11:48:53.0730468+05:30 level=info msg="Update check succeeded" duration=429.1961ms
+logger=rendering renderer=http t=2025-01-07T11:54:03.2321504+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T11:54:03.2321504+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=user.sync t=2025-01-07T11:55:29.1761046+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T11:58:51.5365339+05:30 level=info msg="Completed cleanup jobs" duration=2.9775ms
+logger=plugins.update.checker t=2025-01-07T11:58:53.0857886+05:30 level=info msg="Update check succeeded" duration=439.2443ms
+logger=user.sync t=2025-01-07T12:05:17.1754307+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T12:08:51.5400322+05:30 level=info msg="Completed cleanup jobs" duration=4.5647ms
+logger=rendering renderer=http t=2025-01-07T12:09:04.1087817+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T12:09:04.1087817+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=infra.usagestats t=2025-01-07T12:09:29.2836958+05:30 level=info msg="Usage stats are ready to report"
+logger=user.sync t=2025-01-07T12:15:09.1796835+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T12:18:51.5413167+05:30 level=info msg="Completed cleanup jobs" duration=2.9813ms
+logger=plugins.update.checker t=2025-01-07T12:18:59.2971393+05:30 level=info msg="Update check succeeded" duration=6.645953s
+logger=rendering renderer=http t=2025-01-07T12:24:03.1000181+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T12:24:03.1000181+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=user.sync t=2025-01-07T12:24:46.1874796+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T12:28:51.5455355+05:30 level=info msg="Completed cleanup jobs" duration=3.5015ms
+logger=plugins.update.checker t=2025-01-07T12:28:53.0891628+05:30 level=info msg="Update check succeeded" duration=434.3872ms
+logger=user.sync t=2025-01-07T12:34:23.1838922+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T12:38:51.5474305+05:30 level=info msg="Completed cleanup jobs" duration=4.835ms
+logger=plugins.update.checker t=2025-01-07T12:38:53.0648506+05:30 level=info msg="Update check succeeded" duration=363.9167ms
+logger=rendering renderer=http t=2025-01-07T12:39:03.022648+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T12:39:03.022648+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=infra.usagestats t=2025-01-07T12:39:29.266786+05:30 level=info msg="Usage stats are ready to report"
+logger=user.sync t=2025-01-07T12:44:08.1821506+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T12:48:51.5464943+05:30 level=info msg="Completed cleanup jobs" duration=3.4564ms
+logger=plugins.update.checker t=2025-01-07T12:48:53.0252784+05:30 level=info msg="Update check succeeded" duration=369.7857ms
+logger=user.sync t=2025-01-07T12:53:59.1926956+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=rendering renderer=http t=2025-01-07T12:54:02.977783+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T12:54:02.977783+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=cleanup t=2025-01-07T12:58:51.5566103+05:30 level=info msg="Completed cleanup jobs" duration=11.5816ms
+logger=plugins.update.checker t=2025-01-07T12:58:53.033283+05:30 level=info msg="Update check succeeded" duration=375.6994ms
+logger=user.sync t=2025-01-07T13:03:38.2021756+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T13:08:51.5498992+05:30 level=info msg="Completed cleanup jobs" duration=3.9398ms
+logger=plugins.update.checker t=2025-01-07T13:08:53.306329+05:30 level=info msg="Update check succeeded" duration=583.3208ms
+logger=rendering renderer=http t=2025-01-07T13:09:02.9822344+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T13:09:02.9822344+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=infra.usagestats t=2025-01-07T13:09:29.3162072+05:30 level=info msg="Usage stats are ready to report"
+logger=user.sync t=2025-01-07T13:13:19.1903128+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T13:18:51.5495723+05:30 level=info msg="Completed cleanup jobs" duration=2.9795ms
+logger=plugins.update.checker t=2025-01-07T13:18:53.2943297+05:30 level=info msg="Update check succeeded" duration=634.5709ms
+logger=user.sync t=2025-01-07T13:23:08.187961+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=rendering renderer=http t=2025-01-07T13:24:03.0269647+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T13:24:03.0269647+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=cleanup t=2025-01-07T13:28:51.5519256+05:30 level=info msg="Completed cleanup jobs" duration=2.983ms
+logger=plugins.update.checker t=2025-01-07T13:28:53.0575734+05:30 level=info msg="Update check succeeded" duration=395.7575ms
+logger=user.sync t=2025-01-07T13:33:02.1982606+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T13:38:51.5555653+05:30 level=info msg="Completed cleanup jobs" duration=2.9883ms
+logger=plugins.update.checker t=2025-01-07T13:38:53.0536107+05:30 level=info msg="Update check succeeded" duration=356.7336ms
+logger=rendering renderer=http t=2025-01-07T13:39:02.9984043+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T13:39:02.9984043+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=infra.usagestats t=2025-01-07T13:39:29.3323384+05:30 level=info msg="Usage stats are ready to report"
+logger=user.sync t=2025-01-07T13:42:50.2011803+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T13:48:51.5646884+05:30 level=info msg="Completed cleanup jobs" duration=10.7833ms
+logger=plugins.update.checker t=2025-01-07T13:48:53.0340083+05:30 level=info msg="Update check succeeded" duration=368.5259ms
+logger=user.sync t=2025-01-07T13:52:35.1954416+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=rendering renderer=http t=2025-01-07T13:54:03.0020974+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T13:54:03.0020974+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=cleanup t=2025-01-07T13:58:51.5588872+05:30 level=info msg="Completed cleanup jobs" duration=3.6495ms
+logger=plugins.update.checker t=2025-01-07T13:58:53.0375223+05:30 level=info msg="Update check succeeded" duration=368.6385ms
+logger=user.sync t=2025-01-07T14:02:24.1978522+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T14:08:51.5612344+05:30 level=info msg="Completed cleanup jobs" duration=3.5376ms
+logger=plugins.update.checker t=2025-01-07T14:08:53.3958495+05:30 level=info msg="Update check succeeded" duration=690.277ms
+logger=rendering renderer=http t=2025-01-07T14:09:03.0367591+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T14:09:03.0367591+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=infra.usagestats t=2025-01-07T14:09:29.1953722+05:30 level=info msg="Usage stats are ready to report"
+logger=user.sync t=2025-01-07T14:12:04.2002368+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T14:18:51.5644698+05:30 level=info msg="Completed cleanup jobs" duration=4.8319ms
+logger=plugins.update.checker t=2025-01-07T14:18:53.0470905+05:30 level=info msg="Update check succeeded" duration=374.7769ms
+logger=user.sync t=2025-01-07T14:21:56.2082298+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=rendering renderer=http t=2025-01-07T14:24:02.9974092+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T14:24:02.9974092+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=cleanup t=2025-01-07T14:28:51.5641225+05:30 level=info msg="Completed cleanup jobs" duration=2.9794ms
+logger=plugins.update.checker t=2025-01-07T14:28:53.0346425+05:30 level=info msg="Update check succeeded" duration=360.4806ms
+logger=user.sync t=2025-01-07T14:31:38.2054569+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T14:38:51.5672074+05:30 level=info msg="Completed cleanup jobs" duration=3.6343ms
+logger=plugins.update.checker t=2025-01-07T14:38:53.1183938+05:30 level=info msg="Update check succeeded" duration=381.0415ms
+logger=rendering renderer=http t=2025-01-07T14:39:03.0105748+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T14:39:03.0105748+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=infra.usagestats t=2025-01-07T14:39:29.3482813+05:30 level=info msg="Usage stats are ready to report"
+logger=user.sync t=2025-01-07T14:41:24.2293737+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T14:48:51.5690096+05:30 level=info msg="Completed cleanup jobs" duration=2.981ms
+logger=plugins.update.checker t=2025-01-07T14:48:53.0600077+05:30 level=info msg="Update check succeeded" duration=382.0666ms
+logger=user.sync t=2025-01-07T14:51:08.2098151+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=rendering renderer=http t=2025-01-07T14:54:03.024991+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T14:54:03.024991+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=cleanup t=2025-01-07T14:58:51.571204+05:30 level=info msg="Completed cleanup jobs" duration=2.9821ms
+logger=plugins.update.checker t=2025-01-07T14:58:53.0459582+05:30 level=info msg="Update check succeeded" duration=365.8266ms
+logger=user.sync t=2025-01-07T15:00:53.2185279+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T15:08:51.5723694+05:30 level=info msg="Completed cleanup jobs" duration=2.9814ms
+logger=plugins.update.checker t=2025-01-07T15:08:53.0937871+05:30 level=info msg="Update check succeeded" duration=361.9042ms
+logger=rendering renderer=http t=2025-01-07T15:09:03.0099308+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T15:09:03.0099308+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=infra.usagestats t=2025-01-07T15:09:29.2314176+05:30 level=info msg="Usage stats are ready to report"
+logger=user.sync t=2025-01-07T15:10:35.3200695+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T15:18:51.575611+05:30 level=info msg="Completed cleanup jobs" duration=4.0732ms
+logger=plugins.update.checker t=2025-01-07T15:18:53.0488875+05:30 level=info msg="Update check succeeded" duration=363.3159ms
+logger=user.sync t=2025-01-07T15:20:19.2212289+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=rendering renderer=http t=2025-01-07T15:24:03.0051924+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T15:24:03.0051924+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=cleanup t=2025-01-07T15:28:51.5754907+05:30 level=info msg="Completed cleanup jobs" duration=2.9812ms
+logger=plugins.update.checker t=2025-01-07T15:28:53.0536044+05:30 level=info msg="Update check succeeded" duration=366.8669ms
+logger=user.sync t=2025-01-07T15:30:00.2216862+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T15:38:51.5776756+05:30 level=info msg="Completed cleanup jobs" duration=2.972ms
+logger=plugins.update.checker t=2025-01-07T15:38:53.1041864+05:30 level=info msg="Update check succeeded" duration=377.1156ms
+logger=rendering renderer=http t=2025-01-07T15:39:02.997684+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T15:39:02.997684+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=infra.usagestats t=2025-01-07T15:39:29.2285968+05:30 level=info msg="Usage stats are ready to report"
+logger=user.sync t=2025-01-07T15:39:40.2243231+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T15:48:51.5810078+05:30 level=info msg="Completed cleanup jobs" duration=3.4151ms
+logger=plugins.update.checker t=2025-01-07T15:48:53.0508762+05:30 level=info msg="Update check succeeded" duration=361.109ms
+logger=user.sync t=2025-01-07T15:49:18.2199516+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=rendering renderer=http t=2025-01-07T15:54:03.0219984+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T15:54:03.0219984+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=cleanup t=2025-01-07T15:58:51.5839735+05:30 level=info msg="Completed cleanup jobs" duration=3.463ms
+logger=plugins.update.checker t=2025-01-07T15:58:53.0553205+05:30 level=info msg="Update check succeeded" duration=362.4676ms
+logger=user.sync t=2025-01-07T15:58:57.2212444+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=user.sync t=2025-01-07T16:08:38.2232232+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T16:08:51.5854291+05:30 level=info msg="Completed cleanup jobs" duration=3.3506ms
+logger=plugins.update.checker t=2025-01-07T16:08:53.08315+05:30 level=info msg="Update check succeeded" duration=363.9322ms
+logger=rendering renderer=http t=2025-01-07T16:09:03.0018323+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T16:09:03.0018323+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=infra.usagestats t=2025-01-07T16:09:29.2471845+05:30 level=info msg="Usage stats are ready to report"
+logger=user.sync t=2025-01-07T16:18:17.2322107+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T16:18:51.5873155+05:30 level=info msg="Completed cleanup jobs" duration=3.4834ms
+logger=plugins.update.checker t=2025-01-07T16:18:53.0626329+05:30 level=info msg="Update check succeeded" duration=365.4294ms
+logger=rendering renderer=http t=2025-01-07T16:24:03.0245272+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T16:24:03.0245272+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=user.sync t=2025-01-07T16:27:53.2373611+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T16:28:51.5891498+05:30 level=info msg="Completed cleanup jobs" duration=3.0591ms
+logger=plugins.update.checker t=2025-01-07T16:28:53.0590515+05:30 level=info msg="Update check succeeded" duration=360.0401ms
+logger=user.sync t=2025-01-07T16:37:29.2387097+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T16:38:51.5910536+05:30 level=info msg="Completed cleanup jobs" duration=2.9827ms
+logger=plugins.update.checker t=2025-01-07T16:38:53.0955345+05:30 level=info msg="Update check succeeded" duration=356.7166ms
+logger=rendering renderer=http t=2025-01-07T16:39:03.0149737+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T16:39:03.0149737+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=infra.usagestats t=2025-01-07T16:39:29.3445089+05:30 level=info msg="Usage stats are ready to report"
+logger=user.sync t=2025-01-07T16:47:20.2306779+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T16:48:51.5951659+05:30 level=info msg="Completed cleanup jobs" duration=3.9987ms
+logger=plugins.update.checker t=2025-01-07T16:48:53.0673773+05:30 level=info msg="Update check succeeded" duration=364.394ms
+logger=rendering renderer=http t=2025-01-07T16:54:03.0169695+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T16:54:03.0169695+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=user.sync t=2025-01-07T16:57:04.2465438+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T16:58:51.6054297+05:30 level=info msg="Completed cleanup jobs" duration=11.2657ms
+logger=plugins.update.checker t=2025-01-07T16:58:53.0668895+05:30 level=info msg="Update check succeeded" duration=361.7835ms
+logger=user.sync t=2025-01-07T17:06:57.2435815+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T17:08:51.6030854+05:30 level=info msg="Completed cleanup jobs" duration=8.3976ms
+logger=plugins.update.checker t=2025-01-07T17:08:53.0848257+05:30 level=info msg="Update check succeeded" duration=373.6238ms
+logger=rendering renderer=http t=2025-01-07T17:09:03.0338422+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T17:09:03.0338422+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=infra.usagestats t=2025-01-07T17:09:29.2957448+05:30 level=info msg="Usage stats are ready to report"
+logger=user.sync t=2025-01-07T17:16:50.247766+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T17:18:51.6014417+05:30 level=info msg="Completed cleanup jobs" duration=3.9991ms
+logger=plugins.update.checker t=2025-01-07T17:18:53.0683636+05:30 level=info msg="Update check succeeded" duration=358.6813ms
+logger=rendering renderer=http t=2025-01-07T17:24:03.0150041+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T17:24:03.0150041+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=user.sync t=2025-01-07T17:26:33.2483376+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T17:28:51.6044298+05:30 level=info msg="Completed cleanup jobs" duration=3.9833ms
+logger=plugins.update.checker t=2025-01-07T17:28:53.0753528+05:30 level=info msg="Update check succeeded" duration=363.8495ms
+logger=user.sync t=2025-01-07T17:36:12.2430945+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T17:38:51.6042505+05:30 level=info msg="Completed cleanup jobs" duration=2.9801ms
+logger=plugins.update.checker t=2025-01-07T17:38:53.1197972+05:30 level=info msg="Update check succeeded" duration=359.3993ms
+logger=rendering renderer=http t=2025-01-07T17:39:03.0314485+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T17:39:03.0315504+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=infra.usagestats t=2025-01-07T17:39:29.402798+05:30 level=info msg="Usage stats are ready to report"
+logger=user.sync t=2025-01-07T17:46:03.2445362+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T17:48:51.6061409+05:30 level=info msg="Completed cleanup jobs" duration=2.9734ms
+logger=plugins.update.checker t=2025-01-07T17:48:53.0740932+05:30 level=info msg="Update check succeeded" duration=358.414ms
+logger=rendering renderer=http t=2025-01-07T17:54:03.1905746+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T17:54:03.1905746+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=user.sync t=2025-01-07T17:55:41.2448289+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T17:58:51.6075184+05:30 level=info msg="Completed cleanup jobs" duration=2.9811ms
+logger=plugins.update.checker t=2025-01-07T17:58:53.0821606+05:30 level=info msg="Update check succeeded" duration=363.915ms
+logger=user.sync t=2025-01-07T18:05:31.256327+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T18:08:51.6097082+05:30 level=info msg="Completed cleanup jobs" duration=3.4183ms
+logger=plugins.update.checker t=2025-01-07T18:08:53.1105944+05:30 level=info msg="Update check succeeded" duration=372.631ms
+logger=rendering renderer=http t=2025-01-07T18:09:03.051342+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T18:09:03.051342+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=infra.usagestats t=2025-01-07T18:09:29.3337118+05:30 level=info msg="Usage stats are ready to report"
+logger=user.sync t=2025-01-07T18:15:24.2565313+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T18:18:51.611323+05:30 level=info msg="Completed cleanup jobs" duration=2.9362ms
+logger=plugins.update.checker t=2025-01-07T18:18:53.0761341+05:30 level=info msg="Update check succeeded" duration=355.0761ms
+logger=rendering renderer=http t=2025-01-07T18:24:03.0599279+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T18:24:03.0599279+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=user.sync t=2025-01-07T18:25:12.2517925+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T18:28:51.6148998+05:30 level=info msg="Completed cleanup jobs" duration=2.9821ms
+logger=plugins.update.checker t=2025-01-07T18:28:53.0817296+05:30 level=info msg="Update check succeeded" duration=357.8068ms
+logger=user.sync t=2025-01-07T18:35:06.2530512+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T18:38:51.6164497+05:30 level=info msg="Completed cleanup jobs" duration=3.4739ms
+logger=plugins.update.checker t=2025-01-07T18:38:53.1320362+05:30 level=info msg="Update check succeeded" duration=369.3564ms
+logger=rendering renderer=http t=2025-01-07T18:39:03.027919+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T18:39:03.027919+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=infra.usagestats t=2025-01-07T18:39:29.3790482+05:30 level=info msg="Usage stats are ready to report"
+logger=user.sync t=2025-01-07T18:44:44.2684564+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T18:48:51.6181622+05:30 level=info msg="Completed cleanup jobs" duration=2.9993ms
+logger=plugins.update.checker t=2025-01-07T18:48:53.0868211+05:30 level=info msg="Update check succeeded" duration=359.1689ms
+logger=rendering renderer=http t=2025-01-07T18:54:03.0301182+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T18:54:03.0304597+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=user.sync t=2025-01-07T18:54:32.2647365+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T18:58:51.6205102+05:30 level=info msg="Completed cleanup jobs" duration=3.7392ms
+logger=plugins.update.checker t=2025-01-07T18:58:53.0942022+05:30 level=info msg="Update check succeeded" duration=364.8059ms
+logger=user.sync t=2025-01-07T19:04:08.2590271+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T19:08:51.6228126+05:30 level=info msg="Completed cleanup jobs" duration=4.6382ms
+logger=grafana.update.checker t=2025-01-07T19:08:53.1292923+05:30 level=info msg="Update check succeeded" duration=427.5328ms
+logger=plugins.update.checker t=2025-01-07T19:08:53.1336745+05:30 level=info msg="Update check succeeded" duration=329.1338ms
+logger=rendering renderer=http t=2025-01-07T19:09:03.0758216+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T19:09:03.0758216+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=infra.usagestats t=2025-01-07T19:09:29.4072523+05:30 level=info msg="Usage stats are ready to report"
+logger=infra.usagestats t=2025-01-07T19:09:57.2950664+05:30 level=info msg="Sent usage stats" duration=1.3551558s
+logger=user.sync t=2025-01-07T19:14:00.2678708+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T19:18:51.6249164+05:30 level=info msg="Completed cleanup jobs" duration=4.0002ms
+logger=plugins.update.checker t=2025-01-07T19:18:53.092848+05:30 level=info msg="Update check succeeded" duration=359.7231ms
+logger=user.sync t=2025-01-07T19:23:54.2735449+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=rendering renderer=http t=2025-01-07T19:24:03.0669862+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T19:24:03.0669862+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=cleanup t=2025-01-07T19:28:51.623309+05:30 level=info msg="Completed cleanup jobs" duration=2.9782ms
+logger=plugins.update.checker t=2025-01-07T19:28:53.1097716+05:30 level=info msg="Update check succeeded" duration=376.032ms
+logger=user.sync t=2025-01-07T19:33:44.2646708+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T19:38:51.6264016+05:30 level=info msg="Completed cleanup jobs" duration=3.0012ms
+logger=plugins.update.checker t=2025-01-07T19:38:53.1712677+05:30 level=info msg="Update check succeeded" duration=377.1208ms
+logger=rendering renderer=http t=2025-01-07T19:39:03.0458334+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T19:39:03.0458334+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=infra.usagestats t=2025-01-07T19:39:29.2758676+05:30 level=info msg="Usage stats are ready to report"
+logger=user.sync t=2025-01-07T19:43:23.2652266+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T19:48:51.6271362+05:30 level=info msg="Completed cleanup jobs" duration=3.0012ms
+logger=plugins.update.checker t=2025-01-07T19:48:53.1100718+05:30 level=info msg="Update check succeeded" duration=373.0081ms
+logger=user.sync t=2025-01-07T19:53:12.2649366+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=rendering renderer=http t=2025-01-07T19:54:03.0451433+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T19:54:03.0451433+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=cleanup t=2025-01-07T19:58:51.6298909+05:30 level=info msg="Completed cleanup jobs" duration=3.9626ms
+logger=plugins.update.checker t=2025-01-07T19:58:53.0958711+05:30 level=info msg="Update check succeeded" duration=356.803ms
+logger=user.sync t=2025-01-07T20:02:49.2823934+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T20:08:51.6322841+05:30 level=info msg="Completed cleanup jobs" duration=3.8653ms
+logger=plugins.update.checker t=2025-01-07T20:08:53.1470845+05:30 level=info msg="Update check succeeded" duration=365.6669ms
+logger=rendering renderer=http t=2025-01-07T20:09:03.0530108+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T20:09:03.0530108+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=infra.usagestats t=2025-01-07T20:09:29.3975552+05:30 level=info msg="Usage stats are ready to report"
+logger=user.sync t=2025-01-07T20:12:29.2900368+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T20:18:51.6345346+05:30 level=info msg="Completed cleanup jobs" duration=2.9813ms
+logger=plugins.update.checker t=2025-01-07T20:18:53.1166157+05:30 level=info msg="Update check succeeded" duration=373.6423ms
+logger=user.sync t=2025-01-07T20:22:23.2807728+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=rendering renderer=http t=2025-01-07T20:24:03.0603203+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T20:24:03.0603203+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=cleanup t=2025-01-07T20:28:51.6348792+05:30 level=info msg="Completed cleanup jobs" duration=2.9727ms
+logger=plugins.update.checker t=2025-01-07T20:28:53.1047422+05:30 level=info msg="Update check succeeded" duration=360.3409ms
+logger=user.sync t=2025-01-07T20:32:16.2797072+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T20:38:51.6381193+05:30 level=info msg="Completed cleanup jobs" duration=3.9997ms
+logger=plugins.update.checker t=2025-01-07T20:38:53.1561765+05:30 level=info msg="Update check succeeded" duration=363.4548ms
+logger=rendering renderer=http t=2025-01-07T20:39:03.0676278+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T20:39:03.0676278+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=infra.usagestats t=2025-01-07T20:39:29.3788281+05:30 level=info msg="Usage stats are ready to report"
+logger=user.sync t=2025-01-07T20:42:07.3168734+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T20:48:51.6411564+05:30 level=info msg="Completed cleanup jobs" duration=4.0583ms
+logger=plugins.update.checker t=2025-01-07T20:48:53.1106302+05:30 level=info msg="Update check succeeded" duration=361.7388ms
+logger=user.sync t=2025-01-07T20:51:45.296765+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=rendering renderer=http t=2025-01-07T20:54:03.0647756+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T20:54:03.0647756+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=cleanup t=2025-01-07T20:58:51.6523137+05:30 level=info msg="Completed cleanup jobs" duration=13.5516ms
+logger=plugins.update.checker t=2025-01-07T20:58:53.1109478+05:30 level=info msg="Update check succeeded" duration=359.3408ms
+logger=user.sync t=2025-01-07T21:01:25.3835833+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T21:08:51.6458663+05:30 level=info msg="Completed cleanup jobs" duration=4.9978ms
+logger=plugins.update.checker t=2025-01-07T21:08:53.1290608+05:30 level=info msg="Update check succeeded" duration=363.8817ms
+logger=rendering renderer=http t=2025-01-07T21:09:03.0740051+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T21:09:03.0744035+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=infra.usagestats t=2025-01-07T21:09:29.4214496+05:30 level=info msg="Usage stats are ready to report"
+logger=user.sync t=2025-01-07T21:11:14.286287+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T21:18:51.654036+05:30 level=info msg="Completed cleanup jobs" duration=10.8784ms
+logger=plugins.update.checker t=2025-01-07T21:18:53.1202094+05:30 level=info msg="Update check succeeded" duration=362.7777ms
+logger=user.sync t=2025-01-07T21:21:07.2937735+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=rendering renderer=http t=2025-01-07T21:24:03.0830787+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T21:24:03.0830787+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=cleanup t=2025-01-07T21:28:51.6492319+05:30 level=info msg="Completed cleanup jobs" duration=4.1275ms
+logger=plugins.update.checker t=2025-01-07T21:28:53.122424+05:30 level=info msg="Update check succeeded" duration=365.2094ms
+logger=user.sync t=2025-01-07T21:31:01.2888993+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T21:38:51.6516556+05:30 level=info msg="Completed cleanup jobs" duration=3.9697ms
+logger=plugins.update.checker t=2025-01-07T21:38:53.1961429+05:30 level=info msg="Update check succeeded" duration=372.1881ms
+logger=rendering renderer=http t=2025-01-07T21:39:03.0727952+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T21:39:03.0727952+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=infra.usagestats t=2025-01-07T21:39:29.4245339+05:30 level=info msg="Usage stats are ready to report"
+logger=user.sync t=2025-01-07T21:40:38.3001996+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T21:48:51.653081+05:30 level=info msg="Completed cleanup jobs" duration=3.6188ms
+logger=plugins.update.checker t=2025-01-07T21:48:53.1286433+05:30 level=info msg="Update check succeeded" duration=366.605ms
+logger=user.sync t=2025-01-07T21:50:29.2918382+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=rendering renderer=http t=2025-01-07T21:54:03.0907031+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T21:54:03.090911+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=cleanup t=2025-01-07T21:58:51.6556172+05:30 level=info msg="Completed cleanup jobs" duration=3.5847ms
+logger=plugins.update.checker t=2025-01-07T21:58:53.1288555+05:30 level=info msg="Update check succeeded" duration=363.7654ms
+logger=user.sync t=2025-01-07T22:00:22.3216051+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T22:08:51.6583778+05:30 level=info msg="Completed cleanup jobs" duration=4.1592ms
+logger=plugins.update.checker t=2025-01-07T22:08:53.1842569+05:30 level=info msg="Update check succeeded" duration=391.8225ms
+logger=rendering renderer=http t=2025-01-07T22:09:03.1008078+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T22:09:03.1008078+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=infra.usagestats t=2025-01-07T22:09:29.441523+05:30 level=info msg="Usage stats are ready to report"
+logger=user.sync t=2025-01-07T22:10:08.3066953+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T22:18:51.661706+05:30 level=info msg="Completed cleanup jobs" duration=2.9849ms
+logger=plugins.update.checker t=2025-01-07T22:18:53.1273724+05:30 level=info msg="Update check succeeded" duration=357.0928ms
+logger=user.sync t=2025-01-07T22:19:59.3109917+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=rendering renderer=http t=2025-01-07T22:24:03.0882312+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T22:24:03.0882312+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=cleanup t=2025-01-07T22:28:51.6637528+05:30 level=info msg="Completed cleanup jobs" duration=3.9789ms
+logger=plugins.update.checker t=2025-01-07T22:28:53.1383931+05:30 level=info msg="Update check succeeded" duration=364.9499ms
+logger=user.sync t=2025-01-07T22:29:48.3013697+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T22:38:51.6654157+05:30 level=info msg="Completed cleanup jobs" duration=2.9842ms
+logger=plugins.update.checker t=2025-01-07T22:38:53.3074932+05:30 level=info msg="Update check succeeded" duration=505.0273ms
+logger=rendering renderer=http t=2025-01-07T22:39:03.095066+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T22:39:03.095066+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=infra.usagestats t=2025-01-07T22:39:29.4078479+05:30 level=info msg="Usage stats are ready to report"
+logger=user.sync t=2025-01-07T22:39:38.3153999+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T22:48:51.6677978+05:30 level=info msg="Completed cleanup jobs" duration=2.9824ms
+logger=plugins.update.checker t=2025-01-07T22:48:53.1332803+05:30 level=info msg="Update check succeeded" duration=356.2888ms
+logger=user.sync t=2025-01-07T22:49:25.3142823+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=rendering renderer=http t=2025-01-07T22:54:03.0783397+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T22:54:03.0783397+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=cleanup t=2025-01-07T22:58:51.6696941+05:30 level=info msg="Completed cleanup jobs" duration=3.0005ms
+logger=plugins.update.checker t=2025-01-07T22:58:53.1363385+05:30 level=info msg="Update check succeeded" duration=355.8346ms
+logger=user.sync t=2025-01-07T22:59:02.3085451+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T23:08:51.6742742+05:30 level=info msg="Completed cleanup jobs" duration=4.0309ms
+logger=user.sync t=2025-01-07T23:08:52.3118993+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=plugins.update.checker t=2025-01-07T23:08:53.2176978+05:30 level=info msg="Update check succeeded" duration=434.0346ms
+logger=rendering renderer=http t=2025-01-07T23:09:03.1148742+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T23:09:03.1148742+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=infra.usagestats t=2025-01-07T23:09:29.4470894+05:30 level=info msg="Usage stats are ready to report"
+logger=user.sync t=2025-01-07T23:18:35.313581+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T23:18:51.6767441+05:30 level=info msg="Completed cleanup jobs" duration=4.171ms
+logger=plugins.update.checker t=2025-01-07T23:18:53.2609418+05:30 level=info msg="Update check succeeded" duration=476.3767ms
+logger=rendering renderer=http t=2025-01-07T23:24:03.1215515+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T23:24:03.1215515+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=user.sync t=2025-01-07T23:28:11.3377225+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T23:28:51.6798259+05:30 level=info msg="Completed cleanup jobs" duration=4.7231ms
+logger=plugins.update.checker t=2025-01-07T23:28:53.1513442+05:30 level=info msg="Update check succeeded" duration=363.5122ms
+logger=user.sync t=2025-01-07T23:37:53.3181065+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T23:38:51.681759+05:30 level=info msg="Completed cleanup jobs" duration=2.9705ms
+logger=plugins.update.checker t=2025-01-07T23:38:53.1882014+05:30 level=info msg="Update check succeeded" duration=367.8244ms
+logger=rendering renderer=http t=2025-01-07T23:39:03.1069053+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T23:39:03.1073153+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=infra.usagestats t=2025-01-07T23:39:29.3279788+05:30 level=info msg="Usage stats are ready to report"
+logger=user.sync t=2025-01-07T23:47:42.3295201+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T23:48:51.6838212+05:30 level=info msg="Completed cleanup jobs" duration=2.9996ms
+logger=plugins.update.checker t=2025-01-07T23:48:53.1701431+05:30 level=info msg="Update check succeeded" duration=376.7394ms
+logger=rendering renderer=http t=2025-01-07T23:54:03.1058022+05:30 level=error msg="Failed to send request to remote rendering service" error="Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=rendering renderer=http t=2025-01-07T23:54:03.1058022+05:30 level=info msg="Failed to refresh remote plugin version" err="failed to send request to remote rendering service: Get \"http://svc-render:8081/render/version\": dial tcp: lookup svc-render: no such host"
+logger=user.sync t=2025-01-07T23:57:22.3312885+05:30 level=warn msg="RBAC : Failed to get bhd roles" UserId=3 error=null
+logger=cleanup t=2025-01-07T23:58:51.6862254+05:30 level=info msg="Completed cleanup jobs" duration=2.983ms
+logger=plugins.update.checker t=2025-01-07T23:58:53.1663282+05:30 level=info msg="Update check succeeded" duration=370.758ms
