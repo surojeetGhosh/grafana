@@ -33,7 +33,6 @@ jobs:
       - name: Check PR Merge Status
         id: pr_check
         run: |
-          gh auth login --with-token <<< "${{secrets.GH_TOKEN}}"
           PR_DATA=$(gh pr view ${{ inputs.pr_number }} --json state,mergeCommit --jq "{state: .state, commit: .mergeCommit.oid}")
           echo "$PR_DATA" > pr_status.json
 
