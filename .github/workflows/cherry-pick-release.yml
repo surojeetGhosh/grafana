@@ -40,8 +40,8 @@ jobs:
 
           STATUS=$(jq -r '.state' pr_status.json)
           MERGE_COMMIT=$(jq -r '.commit' pr_status.json)
-
-          if [ "$STATUS" != "merged" ]; then
+          
+          if [ "$STATUS" != "MERGED" ]; then
             echo "The PR #${{ inputs.pr_number }} is not merged. Exiting."
             exit 1
           fi
