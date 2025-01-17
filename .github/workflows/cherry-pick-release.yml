@@ -36,10 +36,10 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           PR_DATA=$(gh pr view ${{ inputs.pr_number }} --json state,mergeCommit --jq "{state: .state, commit: .mergeCommit.oid}")
-          echo "$PR_DATA" > pr_status.json
+          echo "$PR_DATA" > ~/pr_status.json
 
-          STATUS=$(jq -r '.state' pr_status.json)
-          MERGE_COMMIT=$(jq -r '.commit' pr_status.json)
+          STATUS=$(jq -r '.state' ~/pr_status.json)
+          MERGE_COMMIT=$(jq -r '.commit' ~/pr_status.json)
           
           if [ "$STATUS" != "MERGED" ]; then
             echo "The PR #${{ inputs.pr_number }} is not merged. Exiting."
