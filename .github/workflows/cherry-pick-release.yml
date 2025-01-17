@@ -33,13 +33,14 @@ jobs:
       - name: Check PR Merge Status
         id: pr_check
         run: |
-          PR_DATA=$(gh pr view ${{ inputs.pr_number }} --json mergeable,merged,mergeCommit --jq '{merged: .merged, commit: .mergeCommit.oid}')
+          gh auth login --with-token <<< "${{secrets.GH_TOKEN}}"
+          PR_DATA=$(gh pr view ${{ inputs.pr_number }} --json state,mergeCommit --jq "{state: .state, commit: .mergeCommit.oid}")
           echo "$PR_DATA" > pr_status.json
 
-          MERGED=$(jq -r '.merged' pr_status.json)
+          STATUS=$(jq -r '.state' pr_status.json)
           MERGE_COMMIT=$(jq -r '.commit' pr_status.json)
 
-          if [ "$MERGED" != "true" ]; then
+          if [ "$STATUS" != "merged" ]; then
             echo "The PR #${{ inputs.pr_number }} is not merged. Exiting."
             exit 1
           fi
@@ -51,28 +52,30 @@ jobs:
         run: |
           RELEASE_BRANCH=${{ inputs.release_branch }}
           git fetch origin $RELEASE_BRANCH
-          git checkout -b cherry-pick-$RELEASE_BRANCH origin/$RELEASE_BRANCH
+          git checkout -b cherry-pick-"$RELEASE_BRANCH"-"${{ inputs.pr_number }}" origin/$RELEASE_BRANCH
 
-      # Cherry-pick the specified commit
+      # Cherry-pick the specified commit, it should fail
       - name: Cherry-pick Commit
         run: |
-          git cherry-pick ${{ env.merge_commit }} || true
+          git cherry-pick ${{ env.merge_commit }}
+          
 
       # Push the new branch
       - name: Push Branch
         run: |
           RELEASE_BRANCH=${{ inputs.release_branch }}
-          git push origin cherry-pick-$RELEASE_BRANCH
+          git push origin cherry-pick-"$RELEASE_BRANCH"-"${{ inputs.pr_number }}"
 
       # Create a PR to the release branch
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "Cherry-picked changes from PR #${{ inputs.pr_number }}"
-          branch: cherry-pick-${{ inputs.release_branch }}
+          token: ${{ secrets.GH_TOKEN }}
+          commit-message: "Cherry-picked changes from PR #${{ inputs.pr_number }} merged on master"
+          branch: cherry-pick-${{ inputs.release_branch }}-"${{ inputs.pr_number }}"
           base: ${{ inputs.release_branch }}
           title: "Cherry-pick PR #${{ inputs.pr_number }} to ${{ inputs.release_branch }}"
           body: |
             Cherry-picked commit from PR #${{ inputs.pr_number }}:
             - Commit: ${{ env.merge_commit }}
+      
