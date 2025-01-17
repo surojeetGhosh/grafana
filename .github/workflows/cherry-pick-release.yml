@@ -32,6 +32,8 @@ jobs:
       # Check if the PR is merged and get the merge commit
       - name: Check PR Merge Status
         id: pr_check
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           PR_DATA=$(gh pr view ${{ inputs.pr_number }} --json state,mergeCommit --jq "{state: .state, commit: .mergeCommit.oid}")
           echo "$PR_DATA" > pr_status.json
