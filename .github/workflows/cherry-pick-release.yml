@@ -56,9 +56,10 @@ jobs:
           git checkout -b cherry-pick-"$RELEASE_BRANCH"-"${{ inputs.pr_number }}" origin/$RELEASE_BRANCH
 
       # Cherry-pick the specified commit, it should fail if not executed properly
+      # here 1 in cherry-pick signify master as base for merge commit
       - name: Cherry-pick Commit
         run: |
-          git cherry-pick -m ${{ env.merge_commit }}
+          git cherry-pick -m 1 ${{ env.merge_commit }}
           
 
       # Push the new branch
