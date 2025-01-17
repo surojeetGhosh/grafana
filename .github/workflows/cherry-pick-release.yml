@@ -53,7 +53,7 @@ jobs:
         run: |
           RELEASE_BRANCH=${{ inputs.release_branch }}
           git fetch origin $RELEASE_BRANCH
-          git checkout -b cherry-pick-"$RELEASE_BRANCH"-"${{ inputs.pr_number }}" origin/$RELEASE_BRANCH
+          git checkout -b cherry-pick-$RELEASE_BRANCH-${{ inputs.pr_number }} origin/$RELEASE_BRANCH
 
       # Cherry-pick the specified commit, it should fail if not executed properly
       # here 1 in cherry-pick signify master as base for merge commit
@@ -66,7 +66,7 @@ jobs:
       - name: Push Branch
         run: |
           RELEASE_BRANCH=${{ inputs.release_branch }}
-          git push origin cherry-pick-"$RELEASE_BRANCH"-"${{ inputs.pr_number }}"
+          git push origin cherry-pick-$RELEASE_BRANCH-${{ inputs.pr_number }}
 
       # Create a PR to the release branch
       - name: Create Pull Request
@@ -74,7 +74,7 @@ jobs:
         with:
           token: ${{ secrets.GH_TOKEN }}
           commit-message: "Cherry-picked changes from PR #${{ inputs.pr_number }} merged on master"
-          branch: cherry-pick-${{ inputs.release_branch }}-"${{ inputs.pr_number }}"
+          branch: cherry-pick-${{ inputs.release_branch }}-${{ inputs.pr_number }}
           base: ${{ inputs.release_branch }}
           title: "Cherry-pick PR #${{ inputs.pr_number }} to ${{ inputs.release_branch }}"
           body: |
